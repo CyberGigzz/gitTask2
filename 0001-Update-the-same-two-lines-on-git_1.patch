@@ -1,0 +1,27 @@
+From b5fa29bec94fc8835878eca446f08824c99f1438 Mon Sep 17 00:00:00 2001
+From: Giga <gigakatamadze0@gmail.com>
+Date: Sun, 14 Sep 2025 23:41:34 +0400
+Subject: [PATCH] Update the same two lines on git_1
+
+---
+ secondFile.txt | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/secondFile.txt b/secondFile.txt
+index fa2da6e..c5ab833 100644
+--- a/secondFile.txt
++++ b/secondFile.txt
+@@ -1,8 +1,8 @@
+ line 1
+ line 2
+-line 3
++Different change from git_1 - 3
+ line 4
+-line 5
++Different change from git_1 - 5
+ line 6
+ line 7
+ line 8
+-- 
+2.51.0
+
