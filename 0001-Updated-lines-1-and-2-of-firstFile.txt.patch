@@ -1,0 +1,85 @@
+From fe25deae603e1ec762d25e9e95c29f7214153ef8 Mon Sep 17 00:00:00 2001
+From: Giga <gigakatamadze0@gmail.com>
+Date: Mon, 15 Sep 2025 10:32:14 +0400
+Subject: [PATCH] Updated lines 1 and 2 of firstFile.txt
+
+---
+ .secondFile.txt.swp                           | Bin 0 -> 12288 bytes
+ 0001-Update-the-same-two-lines-on-git_1.patch |  27 ++++++++++++++++++
+ firstFile.txt                                 |  10 +++----
+ 3 files changed, 32 insertions(+), 5 deletions(-)
+ create mode 100644 .secondFile.txt.swp
+ create mode 100644 0001-Update-the-same-two-lines-on-git_1.patch
+
+diff --git a/.secondFile.txt.swp b/.secondFile.txt.swp
+new file mode 100644
+index 0000000000000000000000000000000000000000..ee78c4718a908c97c7b4309c20c67b8a10a3b1d0
+GIT binary patch
+literal 12288
+zcmeI%!7c+)7zN-{dwyYOb=6X8I#W~=grr&|c52&<&YkH+XQaJ^4G$r)^eA>>;W@m3
+zot=zJG#0h4oNsex?wtG2%yKfv<)gg=Ra^1_U>dlad+rvbinus|#3W(9{Fl5pXy_>G
+zkFMY3MX#Q9E_yn(1Meif3_X1w_V)9G#MtfVGE6%<@(#nnX*(!2jm?+yv%nkZPL@Uu
+zbEcQ<mHq3Ph-k=#jZ15jtxDjR^VNmoyqcY94Hbxph=_>jzq98B+ya>RdeP~xEc{9$
+zA|fIpA|e`JVFbKP0Sn^(|9^k~zYFjtz^edH0z3-vAi%u<*8=nfXbI31U`v3S0D%CD
+z;${`|c|=4+L_|bH<KxVvTKQ#{H5Y3xsxDTs>8Qlmc7TH{GO^K-`rI1#v!1)4N@~UJ
+qSRU1>V8cP(#If${)T&N5OcVVx%O9RKx>muuqjq<;>+b%63m+fwHF<gf
+
+literal 0
+HcmV?d00001
+
+diff --git a/0001-Update-the-same-two-lines-on-git_1.patch b/0001-Update-the-same-two-lines-on-git_1.patch
+new file mode 100644
+index 0000000..0d12c7c
+--- /dev/null
++++ b/0001-Update-the-same-two-lines-on-git_1.patch
+@@ -0,0 +1,27 @@
++From b5fa29bec94fc8835878eca446f08824c99f1438 Mon Sep 17 00:00:00 2001
++From: Giga <gigakatamadze0@gmail.com>
++Date: Sun, 14 Sep 2025 23:41:34 +0400
++Subject: [PATCH] Update the same two lines on git_1
++
++---
++ secondFile.txt | 4 ++--
++ 1 file changed, 2 insertions(+), 2 deletions(-)
++
++diff --git a/secondFile.txt b/secondFile.txt
++index fa2da6e..c5ab833 100644
++--- a/secondFile.txt
+++++ b/secondFile.txt
++@@ -1,8 +1,8 @@
++ line 1
++ line 2
++-line 3
+++Different change from git_1 - 3
++ line 4
++-line 5
+++Different change from git_1 - 5
++ line 6
++ line 7
++ line 8
++-- 
++2.51.0
++
+diff --git a/firstFile.txt b/firstFile.txt
+index 649041b..ea31860 100644
+--- a/firstFile.txt
++++ b/firstFile.txt
+@@ -1,10 +1,10 @@
+-Updated line 1 on git_1
+-Updated line 2 on git_1
++LOOOOOOOOOOOl
++LOOOOOOOOOOOOL
+ line 3
+ line 4
+ line 5
+-Updated line 6 on git_1
+-Updated line 7 on git_1
++line 6
++line 7
+ line 8
+ line 9
+-Updated line 1 on git_10
++line 10
+-- 
+2.51.0
+
