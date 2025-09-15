@@ -1,10 +1,10 @@
-LOOOOOOOOOOOl
-LOOOOOOOOOOOOL
+Updated line 1 on git_1
+Updated line 2 on git_1
 line 3
 line 4
 line 5
-line 6
-line 7
+Updated line 6 on git_1
+Updated line 7 on git_1
 line 8
 line 9
 line 10
